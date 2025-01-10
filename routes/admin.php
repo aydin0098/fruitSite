@@ -14,3 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/',[\App\Http\Controllers\Admin\DashboardController::class,'index'])->name('admin.dashboard');
+//Slider
+Route::resource('/sliders',\App\Http\Controllers\Admin\SliderController::class)->except('show');

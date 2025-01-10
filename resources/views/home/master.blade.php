@@ -19,7 +19,7 @@
             <div id="of-mobile-nav" class="mobile-menu-wrap">
                 <div class="d-block text-center my-3">
                     <a href="Index.html" class="current py-2">
-                        <img src="{{asset('front/Img/logo.svg')}}" />
+                        <img src="Img/logo.svg" />
                     </a>
                 </div>
                 <ul class="mobile-menu">
@@ -50,12 +50,13 @@
 
     <div class="clearfix"></div>
 
-    <section class="container-fluid text-lg-right text-center mt-4 p-3 mb-5">
-        @yield('content')
-    </section>
+    @yield('content')
+
+    @include('home.layout.footer')
+
+</div>
 
 @include('home.layout.script')
-
 
 </body>
 </html>
