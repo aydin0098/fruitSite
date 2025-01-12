@@ -16,3 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/',[\App\Http\Controllers\Admin\DashboardController::class,'index'])->name('admin.dashboard');
 //Slider
 Route::resource('/sliders',\App\Http\Controllers\Admin\SliderController::class)->except('show');
+//Products
+Route::prefix('/products')->group(function(){
+
+    Route::resource('/categories',\App\Http\Controllers\Admin\CategoryController::class);
+
+
+});

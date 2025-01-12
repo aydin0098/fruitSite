@@ -10,19 +10,22 @@
             </ul>
         </li>
 
+        <li class="treeview">
+            <a href="javascript:void(0)"><i class="fa fa-newspaper-o"></i> <span>دسته بندی ها</span> <i class="fa fa-angle-left"></i></a>
+            <ul class="treeview-menu">
+                <li><a href="{{route('categories.index')}}">لیست دسته ها</a></li>
+                <li><a href="{{route('categories.create')}}">دسته جدید</a></li>
+{{--                <li><a href="article-tags.html">برچسب</a></li>--}}
+{{--                <li><a href="articles.html">لیست مقالات</a></li>--}}
+            </ul>
+        </li>
+
         <hr>
 
 
 
 
-        <li class="treeview">
-            <a href="javascript:void(0)"><i class="fa fa-newspaper-o"></i> <span>مقالات</span> <i class="fa fa-angle-left"></i></a>
-            <ul class="treeview-menu">
-                <li><a href="article-categories.html">دسته بندی</a></li>
-                <li><a href="article-tags.html">برچسب</a></li>
-                <li><a href="articles.html">لیست مقالات</a></li>
-            </ul>
-        </li>
+
 
 
         <li><a href="pages.html"><i class="zmdi zmdi-assignment"></i><span>صفحات</span></a></li>
