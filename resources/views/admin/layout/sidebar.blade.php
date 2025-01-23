@@ -20,6 +20,14 @@
             </ul>
         </li>
 
+        <li class="treeview">
+            <a href="javascript:void(0)"><i class="fa fa-newspaper-o"></i> <span>محصولات</span> <i class="fa fa-angle-left"></i></a>
+            <ul class="treeview-menu">
+                <li><a href="{{route('products.index')}}">لیست محصولات</a></li>
+                <li><a href="{{route('products.create')}}">محصول جدید</a></li>
+            </ul>
+        </li>
+
         <hr>
 
 

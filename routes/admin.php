@@ -17,6 +17,8 @@ Route::get('/',[\App\Http\Controllers\Admin\DashboardController::class,'index'])
 //Slider
 Route::resource('/sliders',\App\Http\Controllers\Admin\SliderController::class)->except('show');
 //Products
+Route::resource('/products',\App\Http\Controllers\Admin\ProductController::class)->except('show');
+
 Route::prefix('/products')->group(function(){
 
     Route::resource('/categories',\App\Http\Controllers\Admin\CategoryController::class);

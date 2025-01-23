@@ -3,7 +3,7 @@
         @foreach($categories as $cat)
             <div class="col-md-4 p-3">
                 <div class="py-4 p-3 d-flex align-items-center justify-content-around algin text-lg-right text-md-center mb-3 service_style category-style radius30">
-                    <img src="{{asset($cat['image'])}}">
+                    <img width="100" height="100" src="{{asset($cat['image'])}}">
                     <h3 class="YekanBakhFaNum-Bold fa1-2">{{$cat['title']}}</h3>
                     <a href="{{$cat['slug']}}">
                         <div class="arrow-box d-flex align-items-center justify-content-center">
