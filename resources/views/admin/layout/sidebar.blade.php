@@ -27,7 +27,7 @@
                 <li><a href="{{route('products.create')}}">محصول جدید</a></li>
             </ul>
         </li>
-
+        <li><a href="{{route('catalogs.index')}}"><i class="zmdi zmdi-assignment"></i><span>کاتالوگ ها</span></a></li>
         <hr>
 
 
