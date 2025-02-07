@@ -19,3 +19,6 @@ Route::get('/category/{slug}',[\App\Http\Controllers\Home\ProductController::cla
 Route::get('/products',[\App\Http\Controllers\Home\ProductController::class,'products'])->name('product.all');
 Route::get('/about-us',[\App\Http\Controllers\Home\IndexController::class, 'aboutUs'])->name('about.us');
 Route::get('/contact-us',[\App\Http\Controllers\Home\IndexController::class, 'contactUs'])->name('contact.us');
+Route::get('/catalogs',[\App\Http\Controllers\Home\IndexController::class, 'catalogs'])->name('catalogs');
+Route::get('/articles',[\App\Http\Controllers\Home\IndexController::class, 'articles'])->name('articles');
+Route::get('/article/{slug}',[\App\Http\Controllers\Home\IndexController::class, 'article'])->name('article.show');

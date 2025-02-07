@@ -20,6 +20,8 @@ Route::resource('/sliders',\App\Http\Controllers\Admin\SliderController::class)-
 Route::resource('/catalogs',\App\Http\Controllers\Admin\CatalogController::class)->except('show');
 //Products
 Route::resource('/products',\App\Http\Controllers\Admin\ProductController::class)->except('show');
+//Articles
+Route::resource('/articles',\App\Http\Controllers\Admin\ArticleController::class)->except('show');
 
 Route::prefix('/products')->group(function(){
 

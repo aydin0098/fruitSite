@@ -1,4 +1,5 @@
 @extends('home.master')
+@section('title','محصول '.$product['title'])
 @section('content')
 
     <section class="container-fluid bkg p-0">

@@ -1,4 +1,5 @@
 @extends('home.master')
+@section('title','محصولات')
 @section('content')
     <section class="container-fluid bkg p-0">
         <div class="row">
@@ -67,7 +68,7 @@
                         <div class="col-lg-4 col-md-6 mb-4">
                             <div class="card-body mb-3 text-center">
                                 <a href="{{route('product.index',$product['slug'])}}">
-                                    <img class="img-fluid" src="{{asset('front/Img/product-1.jpg')}}">
+                                    <img class="img-fluid" src="{{asset($product['image'])}}">
                                 </a>
                                 <div>
                                     <h5 class="my-2 YekanBakhFaNum-SemiBold"><a class="card-pro" href="{{route('product.index',$product['slug'])}}">{{$product['title']}}</a></h5>

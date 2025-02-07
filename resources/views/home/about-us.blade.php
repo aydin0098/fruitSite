@@ -1,4 +1,5 @@
 @extends('home.master')
+@section('title','درباره ما')
 @section('content')
     <section class="container-fluid bkg p-0">
         <div class="row">

@@ -1,4 +1,5 @@
 @extends('home.master')
+@section('title','دسته بندی '.$category['title'])
 @section('content')
     <section class="container-fluid bkg p-0">
         <div class="row">

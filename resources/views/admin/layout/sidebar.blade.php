@@ -27,6 +27,15 @@
                 <li><a href="{{route('products.create')}}">محصول جدید</a></li>
             </ul>
         </li>
+
+        <li class="treeview">
+            <a href="javascript:void(0)"><i class="fa fa-newspaper-o"></i> <span>مقالات</span> <i class="fa fa-angle-left"></i></a>
+            <ul class="treeview-menu">
+                <li><a href="{{route('articles.index')}}">لیست مقالات</a></li>
+                <li><a href="{{route('articles.create')}}">مقاله جدید</a></li>
+            </ul>
+        </li>
+
         <li><a href="{{route('catalogs.index')}}"><i class="zmdi zmdi-assignment"></i><span>کاتالوگ ها</span></a></li>
 
         <li class=""><a href="{{route('admin.settings')}}"><i class="zmdi zmdi-view-dashboard"></i><span>تنظیمات</span></a></li>

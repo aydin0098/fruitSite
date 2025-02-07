@@ -14,7 +14,7 @@
 
                         <li><a href="{{route('product.all')}}" target="_blank">محصولات</a></li>
 
-                        <li><a href="" target="_blank">کاتالوگ ها</a></li>
+                        <li><a href="{{route('catalogs')}}" target="_blank">کاتالوگ ها</a></li>
 
 
                         <li><a href="{{route('about.us')}}" target="_blank">درباره ما</a></li>
