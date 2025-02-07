@@ -13,4 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [\App\Http\Controllers\Home\IndexController::class, 'index']);
+Route::get('/', [\App\Http\Controllers\Home\IndexController::class, 'index'])->name('home');
+Route::get('/product/{slug}',[\App\Http\Controllers\Home\ProductController::class,'index'])->name('product.index');
+Route::get('/category/{slug}',[\App\Http\Controllers\Home\ProductController::class,'productCategory'])->name('product.category');
+Route::get('/products',[\App\Http\Controllers\Home\ProductController::class,'products'])->name('product.all');
+Route::get('/about-us',[\App\Http\Controllers\Home\IndexController::class, 'aboutUs'])->name('about.us');
+Route::get('/contact-us',[\App\Http\Controllers\Home\IndexController::class, 'contactUs'])->name('contact.us');

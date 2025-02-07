@@ -18,16 +18,16 @@
         <div class="off-canvas-inner">
             <div id="of-mobile-nav" class="mobile-menu-wrap">
                 <div class="d-block text-center my-3">
-                    <a href="Index.html" class="current py-2">
+                    <a href="{{route('home')}}" class="current py-2">
                         <img src="Img/logo.svg" />
                     </a>
                 </div>
                 <ul class="mobile-menu">
                     <li class="current-menu-item">
-                        <a href="Index.html">صفحه اصلی</a>
+                        <a href="{{route('home')}}">صفحه اصلی</a>
                     </li>
                     <li class="current-menu-item">
-                        <a href="shop.html">محصولات</a>
+                        <a href="{{route('product.all')}}">محصولات</a>
                     </li>
                     <li class="current-menu-item">
                         <a href="gallery.html">گالری</a>

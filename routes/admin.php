@@ -24,6 +24,8 @@ Route::resource('/products',\App\Http\Controllers\Admin\ProductController::class
 Route::prefix('/products')->group(function(){
 
     Route::resource('/categories',\App\Http\Controllers\Admin\CategoryController::class);
-
-
+});
+Route::prefix('settings')->group(function(){
+   Route::get('/',[\App\Http\Controllers\Admin\SettingController::class,'index'])->name('admin.settings');
+   Route::post('/update',[\App\Http\Controllers\Admin\SettingController::class,'update'])->name('admin.settings.update');
 });

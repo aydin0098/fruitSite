@@ -85,7 +85,7 @@
 
 .of-main-menu>ul>li:hover>a,
 .of-main-menu>ul>li.of-active-item>a {
-    color: #FFAA00;
+    color: #77952b;
     /*background-color: rgba(0, 0, 0, 0.10);*/
 }
 
@@ -930,9 +930,9 @@ body.mobile-js-menu .off-canvas-wrap {
 
         .mobile-menu-wrap ul li:hover {
             padding-right: 3px;
-            border-right: 3px solid #FFAA00;
+            border-right: 3px solid #77952b;
 
-            
+
         }
 
         .mobile-menu-wrap ul li a {
@@ -945,7 +945,7 @@ body.mobile-js-menu .off-canvas-wrap {
         }
 
             .mobile-menu-wrap ul li a:focus, .mobile-menu-wrap ul li a:hover {
-                color: #FFAA00;
+                color: #77952b;
             }
 
         .mobile-menu-wrap ul li:first-child {
@@ -1675,11 +1675,11 @@ border-bottom: 1px solid rgba(0,0,0,.1);
 
 .login{
     background-color: #292D32;
-    color: #fff; 
+    color: #fff;
 }
 
 .login:hover{
-    background-color: #FFAA00;
+    background-color: #77952b;
     transition: .4s;
 
 }

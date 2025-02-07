@@ -5,7 +5,7 @@
                 <div class="py-4 p-3 d-flex align-items-center justify-content-around algin text-lg-right text-md-center mb-3 service_style category-style radius30">
                     <img width="100" height="100" src="{{asset($cat['image'])}}">
                     <h3 class="YekanBakhFaNum-Bold fa1-2">{{$cat['title']}}</h3>
-                    <a href="{{$cat['slug']}}">
+                    <a href="{{route('product.category',$cat['slug'])}}">
                         <div class="arrow-box d-flex align-items-center justify-content-center">
                             <svg width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M10.8019 6.17453H2.56566C2.00285 6.17453 1.53613 5.70782 1.53613 5.14501C1.53613 4.5822 2.00285 4.11548 2.56566 4.11548H10.8019C11.3647 4.11548 11.8314 4.5822 11.8314 5.14501C11.8314 5.70782 11.3647 6.17453 10.8019 6.17453Z" fill="#292D32"/>

@@ -28,6 +28,10 @@
             </ul>
         </li>
         <li><a href="{{route('catalogs.index')}}"><i class="zmdi zmdi-assignment"></i><span>کاتالوگ ها</span></a></li>
+
+        <li class=""><a href="{{route('admin.settings')}}"><i class="zmdi zmdi-view-dashboard"></i><span>تنظیمات</span></a></li>
+
+
         <hr>
 
 
